@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+h1 {
+    color: green;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.container {
+    margin: 20px;
+}
+
+.blog-card {
+    margin: 20px 0;
+}
+
+.blog-form {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid lightblue;
+    padding: 30px;
+}
+
+.blog-form h1 {
+    text-align: center;
+    color: rgb(9, 123, 117);
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: rgb(9, 123, 117);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border:1px solid lightblue;
+    border-radius: 5px;
+}
+
+.blog-create-btn {
+    background-color: rgb(9, 123, 117);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    color: white;
+}
+
+.delete-blog-btn {
+    background-color: red;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    color: white;
+}
